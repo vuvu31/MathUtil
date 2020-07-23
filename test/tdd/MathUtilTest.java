@@ -41,7 +41,7 @@ public class MathUtilTest {
         //và ngoại lệ là 1 tình hướng bất thường k như dự tính
         //và nó k ngoại lệ là 1 value để có thể so sánh đc
         //k thể dùng hàm asserEquals()
-        MathUtil.computeFactorial(5);
+        MathUtil.computeFactorial(-5);
     }
     
     //hàm trả về màu đỏ do k ném về ngoại lệ như kì vọng
